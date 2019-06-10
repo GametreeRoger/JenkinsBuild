@@ -3,9 +3,8 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,21 +12,20 @@ MonoBehaviour:
   m_Name: AndroidBuild
   m_EditorClassIdentifier: 
   Name: AndroidBuild
-  BundleId: com.uoo.creativeplay
+  BundleId: com.uoo.jenkinsbuild
   BuildTarget: 13
   BuildTargetGroup: 7
   Version: 1.0.1
   BuildNumber: 1
   Defines: []
-  ICON: {fileID: 2800000, guid: cbf58d62c56c34254a817e874b3a98ed, type: 3}
+  ICON: {fileID: 2800000, guid: 262c53a271d57428a8fdb94ef5036298, type: 3}
   Scenes:
-  - Assets/Scenes/00_Splash_Screen_Uoo.unity
-  - Assets/Scenes/Main.unity
+  - Assets/Scenes/SampleScene.unity
   AppleDeveloperTeamID: 
   TargetOSVersionString: 
   CameraUsageDescription: 
   LocationUsageDescription: 
   MicrophoneUsageDescription: 
   WritePermissionInternal: 1
-  KeyStorePass: csharp2017
-  KeyAliasPass: csharp2019
+  KeyStorePass: 
+  KeyAliasPass: 
